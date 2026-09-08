@@ -6,7 +6,7 @@
 html{
     scroll-behavior: smooth;
 }
-#home,#about,#place#interests{
+#home,#about,#place,#interests{
     scroll-margin-top: 100px;
 }
 .navbar{
@@ -27,18 +27,18 @@ html{
     font-weight: bolder;
     text-decoration: none;
 }
-.nav-link{
+.nav{
     display: flex;
     gap: 30px;
 }
-.nav-link a{
+.nav a{
     position: relative;
     padding: 6px 0;
     color: aliceblue;
     font-weight: bold;
     text-decoration: none;
 }
-.nav-link a::after{
+.nav a::after{
     content: " ";
     position: absolute;
     left: 0;
@@ -48,10 +48,10 @@ html{
     background-color: #f8e643;
     transition: 0.3s;
 }
-.nav-link a:hover{
+.nav a:hover{
     color: #f8e643;
 }
-.nav-link a:hover::after{
+.nav a:hover::after{
     width: 100%;
 }
 body{
@@ -210,13 +210,13 @@ body{
         gap: 10px;
     }
 
-    .nav-link {
+    .nav {
         gap: 12px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .nav-link a {
+    .nav a {
         font-size: 13px;
     }
 
