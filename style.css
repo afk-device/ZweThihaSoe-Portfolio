@@ -201,6 +201,15 @@ body{
     color: black;
     line-height: 1.7;
 }
+.footer {
+    line-height: 1.7;
+    background-color: black;
+}
+
+.copyright p {
+    color: #f8e643;
+    font-size: 15px;
+}
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 768px) {
 
